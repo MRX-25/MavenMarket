@@ -1,7 +1,50 @@
-# MavenMarket
-Maven Market Toys Data Analysis
+### Overview
+We have been provided with sales & inventory data for a fictitious chain of toy stores in Mexico called Maven Toys, including information about products, stores, daily sales transactions, and current inventory levels at each location.
 
-### Problem Statements 
+The data spans from  2022 to  2023, containing over 1 Milions  transactions for all stores owned by Maven Toys.
+
+The objective is to prepare the data, analyze and visualize it, and subsequently outline findings which allow the toy store chain to enhance its decision making capabilities and boost profits.
+
+The major questions that we will attempt to answer are:
+
+Which product categories drive the biggest profits? Is this the same across store locations?
+Are there any seasonal trends or patterns in the sales data?
+Are sales being lost with out-of-stock products at certain locations?
+How much money is tied up in inventory at the toy stores? How long will it last?
+
+
+ ### Data Collection: https://kaggle.com/datasets/68a290f992033c070156c291b27a5e8490e57883f1894a57a4309507703c5a50
+
+
+
+The data used within this project is provided from the following link:
+
+
+We are given four tables in CSV format which contain the following fields:
+
+Products (35 unique products)
+Product_ID - Unique ID given to each product offered
+Product_Name - Unique name given to each product offered
+Product_Category - Category group assigned to each product based on its characteristics/utility
+Product_Cost - Expense incurred for making/attaining the product, in US dollars
+Product_Price - Price at which the product is sold to customers, in US dollars
+Stores (50 different stores)
+Store_ID - Unique store ID given to each toy store
+Store_Name - Unique store name given to each toy store
+Store_City - City in Mexico where the store is located
+Store_Location - Classification of location in the city where the store is located (Downtown,
+Commercial, Residential, Airport)
+Store_Open_Date - Date when the store was opened
+Sales
+Sale_ID - Unique Sale_ID for each transaction conducted in a store
+Date - Date on which the transaction occurred
+Store_ID - Unique store ID given to each toy store
+Product_ID - Unique ID given to each product offered
+Units - No of units of the product sold
+Inventory:
+Store_ID - Unique store ID given to each toy store
+Product_ID - Unique ID given to each product offered
+Stock_On_Hand - Stock quantity of the product in the store
 
 ### Identifying Profitable Product Categories:
 
